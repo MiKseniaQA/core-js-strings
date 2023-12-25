@@ -20,7 +20,7 @@
  *   getStringLength(undefined) => 0
  */
 function getStringLength(str) {
-  return str.length;
+  return str.String.length;
 }
 
 /**
@@ -69,7 +69,7 @@ function concatenateStrings(value1, value2) {
  *   getFirstChar('') => ''
  */
 function getFirstChar(str) {
-  return str.at[0];
+  return str.charAt(0);
 }
 
 /**
